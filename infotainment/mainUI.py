@@ -1,0 +1,150 @@
+# -*- coding: utf-8 -*-
+
+################################################################################
+## Form generated from reading UI file 'mainUI.ui'
+##
+## Created by: Qt User Interface Compiler version 6.4.0
+##
+## WARNING! All changes made in this file will be lost when recompiling UI file!
+################################################################################
+
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWebEngineWidgets import QWebEngineView
+from PySide6.QtWidgets import (QApplication, QLabel, QLineEdit, QMainWindow,
+    QMenuBar, QPlainTextEdit, QPushButton, QSizePolicy,
+    QStatusBar, QWidget)
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        if not MainWindow.objectName():
+            MainWindow.setObjectName(u"MainWindow")
+        MainWindow.resize(1214, 1017)
+        self.centralwidget = QWidget(MainWindow)
+        self.centralwidget.setObjectName(u"centralwidget")
+        self.startButton = QPushButton(self.centralwidget)
+        self.startButton.setObjectName(u"startButton")
+        self.startButton.setGeometry(QRect(830, 770, 61, 61))
+        self.logText = QPlainTextEdit(self.centralwidget)
+        self.logText.setObjectName(u"logText")
+        self.logText.setGeometry(QRect(10, 660, 501, 281))
+        font = QFont()
+        font.setFamilies([u"Consolas"])
+        self.logText.setFont(font)
+        self.goButton = QPushButton(self.centralwidget)
+        self.goButton.setObjectName(u"goButton")
+        self.goButton.setGeometry(QRect(600, 700, 61, 61))
+        self.midButton = QPushButton(self.centralwidget)
+        self.midButton.setObjectName(u"midButton")
+        self.midButton.setGeometry(QRect(600, 770, 61, 61))
+        self.rightButton = QPushButton(self.centralwidget)
+        self.rightButton.setObjectName(u"rightButton")
+        self.rightButton.setGeometry(QRect(670, 770, 61, 61))
+        self.leftButton = QPushButton(self.centralwidget)
+        self.leftButton.setObjectName(u"leftButton")
+        self.leftButton.setGeometry(QRect(530, 770, 61, 61))
+        self.backButton = QPushButton(self.centralwidget)
+        self.backButton.setObjectName(u"backButton")
+        self.backButton.setGeometry(QRect(600, 840, 61, 61))
+        self.stopButton = QPushButton(self.centralwidget)
+        self.stopButton.setObjectName(u"stopButton")
+        self.stopButton.setGeometry(QRect(760, 770, 61, 61))
+        self.p1Button = QPushButton(self.centralwidget)
+        self.p1Button.setObjectName(u"p1Button")
+        self.p1Button.setGeometry(QRect(920, 770, 61, 61))
+        self.browser = QWebEngineView(self.centralwidget)
+        self.browser.setObjectName(u"browser")
+        self.browser.setGeometry(QRect(10, 40, 1191, 581))
+        self.browser.setUrl(QUrl(u"about:blank"))
+        self.UrlBackButton = QPushButton(self.centralwidget)
+        self.UrlBackButton.setObjectName(u"UrlBackButton")
+        self.UrlBackButton.setGeometry(QRect(10, 10, 41, 24))
+        self.UrlGoButton = QPushButton(self.centralwidget)
+        self.UrlGoButton.setObjectName(u"UrlGoButton")
+        self.UrlGoButton.setGeometry(QRect(60, 10, 41, 24))
+        self.HomeButton = QPushButton(self.centralwidget)
+        self.HomeButton.setObjectName(u"HomeButton")
+        self.HomeButton.setGeometry(QRect(110, 10, 51, 24))
+        self.lineEdit = QLineEdit(self.centralwidget)
+        self.lineEdit.setObjectName(u"lineEdit")
+        self.lineEdit.setGeometry(QRect(230, 10, 921, 22))
+        self.EnterButton = QPushButton(self.centralwidget)
+        self.EnterButton.setObjectName(u"EnterButton")
+        self.EnterButton.setGeometry(QRect(1160, 10, 41, 24))
+        self.HomeButton_2 = QPushButton(self.centralwidget)
+        self.HomeButton_2.setObjectName(u"HomeButton_2")
+        self.HomeButton_2.setGeometry(QRect(170, 10, 51, 24))
+        self.p1Button_2 = QPushButton(self.centralwidget)
+        self.p1Button_2.setObjectName(u"p1Button_2")
+        self.p1Button_2.setGeometry(QRect(990, 770, 61, 61))
+        self.p1Button_3 = QPushButton(self.centralwidget)
+        self.p1Button_3.setObjectName(u"p1Button_3")
+        self.p1Button_3.setGeometry(QRect(1060, 770, 61, 61))
+        self.p1Button_4 = QPushButton(self.centralwidget)
+        self.p1Button_4.setObjectName(u"p1Button_4")
+        self.p1Button_4.setGeometry(QRect(1130, 770, 61, 61))
+        self.label = QLabel(self.centralwidget)
+        self.label.setObjectName(u"label")
+        self.label.setGeometry(QRect(10, 630, 141, 21))
+        font1 = QFont()
+        font1.setPointSize(14)
+        self.label.setFont(font1)
+        self.label_2 = QLabel(self.centralwidget)
+        self.label_2.setObjectName(u"label_2")
+        self.label_2.setGeometry(QRect(530, 630, 141, 21))
+        self.label_2.setFont(font1)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QMenuBar(MainWindow)
+        self.menubar.setObjectName(u"menubar")
+        self.menubar.setGeometry(QRect(0, 0, 1214, 22))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QStatusBar(MainWindow)
+        self.statusbar.setObjectName(u"statusbar")
+        MainWindow.setStatusBar(self.statusbar)
+
+        self.retranslateUi(MainWindow)
+        self.startButton.clicked.connect(MainWindow.start)
+        self.stopButton.clicked.connect(MainWindow.stop)
+        self.rightButton.clicked.connect(MainWindow.right)
+        self.leftButton.clicked.connect(MainWindow.left)
+        self.goButton.clicked.connect(MainWindow.go)
+        self.backButton.clicked.connect(MainWindow.back)
+        self.midButton.clicked.connect(MainWindow.mid)
+        self.p1Button.clicked.connect(MainWindow.p1)
+        self.UrlBackButton.clicked.connect(MainWindow.urlBack)
+        self.UrlGoButton.clicked.connect(MainWindow.urlGo)
+        self.HomeButton.clicked.connect(MainWindow.home)
+        self.EnterButton.clicked.connect(MainWindow.enter)
+        self.HomeButton_2.clicked.connect(MainWindow.reload)
+        self.p1Button_3.clicked.connect(MainWindow.p3)
+
+        QMetaObject.connectSlotsByName(MainWindow)
+    # setupUi
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        self.startButton.setText(QCoreApplication.translate("MainWindow", u"start", None))
+        self.goButton.setText(QCoreApplication.translate("MainWindow", u"go", None))
+        self.midButton.setText(QCoreApplication.translate("MainWindow", u"mid", None))
+        self.rightButton.setText(QCoreApplication.translate("MainWindow", u"right", None))
+        self.leftButton.setText(QCoreApplication.translate("MainWindow", u"left", None))
+        self.backButton.setText(QCoreApplication.translate("MainWindow", u"back", None))
+        self.stopButton.setText(QCoreApplication.translate("MainWindow", u"stop", None))
+        self.p1Button.setText(QCoreApplication.translate("MainWindow", u"place1", None))
+        self.UrlBackButton.setText(QCoreApplication.translate("MainWindow", u"<", None))
+        self.UrlGoButton.setText(QCoreApplication.translate("MainWindow", u">", None))
+        self.HomeButton.setText(QCoreApplication.translate("MainWindow", u"Home", None))
+        self.EnterButton.setText(QCoreApplication.translate("MainWindow", u"\u23ce", None))
+        self.HomeButton_2.setText(QCoreApplication.translate("MainWindow", u"Reload", None))
+        self.p1Button_2.setText(QCoreApplication.translate("MainWindow", u"place2", None))
+        self.p1Button_3.setText(QCoreApplication.translate("MainWindow", u"place3", None))
+        self.p1Button_4.setText(QCoreApplication.translate("MainWindow", u"place4", None))
+        self.label.setText(QCoreApplication.translate("MainWindow", u"\uba85\ub839\uc5b4 \uc0c1\ud669", None))
+        self.label_2.setText(QCoreApplication.translate("MainWindow", u"\uba85\ub839\uc5b4 \ud328\ub110", None))
+    # retranslateUi
+
