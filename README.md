@@ -2,7 +2,7 @@
 [SSAFY 관통PJT]
 
 ## 1. Topic
-라즈베리파이 Sensing Data를 이용한 IoT RC카 제작
+Future-IoT-Parking-System (미래형 IoT 주차 시스템 / 라즈베리파이 Sensing Data를 이용한 IoT RC카 제작)
 
 ## 2. Concept
 ### 1) Team Building
